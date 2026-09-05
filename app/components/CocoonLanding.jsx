@@ -506,12 +506,13 @@ export default function CocoonLanding() {
         }}
         onMouseLeave={() => setOpenNav(null)}
       >
-         <div className="flex items-center justify-between px-6 md:px-10 py-4">
+        <div className="flex items-center justify-between px-6 md:px-10 py-3">
           <div className="flex items-center gap-2">
-            <img src="/assets/The_Cocoon_Logo_Type_2.png" alt="theCocoon Logo" style={{ height: "28px", width: "auto" }} />
-            <span className="lumen-display text-xl md:text-2xl" style={{ color: "#0B0A08" }}>
-            theCocoon
-          </span>
+            <img src="/assets/The_Cocoon_Logo_Type_2.png" alt="theCocoon Logo" style={{ height: "44px", width: "auto" }} />
+            <span className="lumen-display text-2xl md:text-3xl" style={{ color: "#0B0A08" }}>
+              theCocoon
+            </span>
+          </div>
 
           <nav className="hidden md:flex items-center gap-8">
             {NAV_ITEMS.map((item) => {
@@ -542,7 +543,7 @@ export default function CocoonLanding() {
               );
             })}
           </nav>
-</div>
+
           <div className="flex items-center gap-4 md:gap-5">
             <button
               className="lumen-btn text-sm font-medium px-5 py-2.5 rounded-full"
